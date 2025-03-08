@@ -6,8 +6,10 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.animation.animateContentSize
+import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -42,6 +44,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
@@ -107,17 +110,23 @@ fun WorkoutCard(
     workout: Workout,
     modifier: Modifier = Modifier
 ) {
-    val colorScheme = MaterialTheme.colorScheme
     var expanded by remember { mutableStateOf(false) }
+
+    // Change color when card is clicked
+    val cardColor = if (expanded) MaterialTheme.colorScheme.primaryContainer
+        else MaterialTheme.colorScheme.surfaceVariant
 
     Card(
         modifier = modifier
             .fillMaxWidth()
             .padding(16.dp)
-            .clickable { expanded = !expanded }
+            .clickable (
+                indication = null,
+                interactionSource = remember { MutableInteractionSource() }
+            ){ expanded = !expanded }
             .animateContentSize(),
         colors = CardDefaults.cardColors(
-            containerColor = colorScheme.surfaceVariant,
+            containerColor = cardColor,
             contentColor = MaterialTheme.colorScheme.onSurface
         ),
         elevation = CardDefaults.cardElevation(defaultElevation = 8.dp)
@@ -142,8 +151,7 @@ fun WorkoutCard(
                     contentScale = ContentScale.Crop,
                 )
             }
-
-
+            
             Text(
                 text = stringResource(workout.nameRes),
                 style = MaterialTheme.typography.titleLarge,
@@ -157,7 +165,6 @@ fun WorkoutCard(
                         Row (
                             verticalAlignment = Alignment.CenterVertically,
                             modifier = Modifier.padding(vertical = 4.dp)
-
                         ){
                             Icon(
                                 painter = painterResource(R.drawable.baseline_check_24),
@@ -176,14 +183,6 @@ fun WorkoutCard(
                     }
                 }
             }
-
-            Icon(
-                imageVector = if (expanded) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown,
-                contentDescription = "Card expand toggle",
-                modifier = Modifier
-                    .align(Alignment.CenterHorizontally)
-                    .padding(top = 8.dp)
-            )
         }
     }
 }
