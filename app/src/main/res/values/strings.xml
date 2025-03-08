@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">30 Days</string>
+    <!-- Bench Press Tips -->
+    <string name="bench_press">Bench Press</string>
+    <string-array name="bench_press_tips">
+        <item>Set Up Properly – Lie on the bench with feet flat on the ground, back slightly arched, and eyes under the bar.</item>
+        <item>Grip the Bar Correctly – Use a grip slightly wider than shoulder-width, keeping wrists straight and elbows at about 75-degree angles.</item>
+        <item>Control the Descent – Lower the bar slowly to your mid-chest, keeping elbows tucked (not flared out).</item>
+        <item>Engage Your Muscles – Press the bar up with power, driving through your chest and triceps while keeping your back tight.</item>
+        <item>Use a Spotter – If lifting heavy, always have a spotter for safety and confidence.</item>
+    </string-array>
+
+    <!-- Treadmill Running Tips -->
+    <string name="treadmill">Treadmill</string>
+    <string-array name="treadmill_tips">
+        <item>Start Slow &amp; Warm Up – Begin with a 5-minute walk or light jog to loosen up your muscles.</item>
+        <item>Maintain Good Posture – Keep your back straight, look forward, and avoid gripping the handrails.</item>
+        <item>Use a Slight Incline – Set the incline to 1–2% to mimic outdoor running conditions.</item>
+        <item>Focus on Your Stride – Run with a natural stride, landing midfoot, and avoid overstriding.</item>
+        <item>Cool Down Properly – Gradually slow down your pace for a few minutes before stopping.</item>
+    </string-array>
+
+    <!-- Squat Exercise Tips -->
+    <string name="squat">Squat</string>
+    <string-array name="squat_tips">
+        <item>Set Up Properly – Stand with feet shoulder-width apart, toes slightly pointed out, and barbell resting on your upper back (not your neck).</item>
+        <item>Engage Your Core – Keep your core tight and chest up to maintain a strong, stable posture.</item>
+        <item>Control the Descent – Lower yourself by pushing your hips back and bending your knees until your thighs are at least parallel to the ground.</item>
+        <item>Drive Through Your Heels – Push up through your heels (not your toes) to engage your glutes and avoid knee strain.</item>
+        <item>Maintain Proper Alignment – Keep your knees tracking over your toes and avoid caving inward.</item>
+    </string-array>
+
+    <!-- Stationary Biking Tips -->
+    <string name="stationary_biking">Stationary Biking</string>
+    <string-array name="stationary_biking_tips">
+        <item>Adjust the Seat Height – Set the seat so your knee has a slight bend (about 25-30 degrees) at the bottom of the pedal stroke.</item>
+        <item>Maintain Good Posture – Keep your back straight, core engaged, and avoid hunching over the handlebars.</item>
+        <item>Use Proper Resistance – Adjust the resistance to challenge your legs without causing knee strain or excessive bouncing.</item>
+        <item>Pedal Smoothly – Use a steady cadence (RPM) rather than pushing too hard or pedaling too fast.</item>
+        <item>Engage Your Core – Keep your core tight to improve balance and efficiency.</item>
+    </string-array>
+
+</resources>
