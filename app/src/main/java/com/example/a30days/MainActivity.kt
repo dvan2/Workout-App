@@ -210,7 +210,8 @@ fun WorkoutCard(
                 indication = null,
                 interactionSource = remember { MutableInteractionSource() }
             ){ expanded = !expanded }
-            .animateContentSize(),
+            .animateContentSize()
+            .clip(MaterialTheme.shapes.medium),
         colors = CardDefaults.cardColors(
             containerColor = cardColor,
             contentColor = MaterialTheme.colorScheme.onSurface
@@ -226,7 +227,6 @@ fun WorkoutCard(
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(194.dp)
-                    .clip(MaterialTheme.shapes.medium)
                     .background(MaterialTheme.colorScheme.primary.copy(alpha = 0.1f)),
 
             ){

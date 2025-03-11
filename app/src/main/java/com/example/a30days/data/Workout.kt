@@ -36,8 +36,8 @@ object WorkoutRepository {
         Workout(R.string.plank, R.drawable.plank, R.array.plank_tips, WorkoutCategory.CORE),
         Workout(R.string.russian_twists, R.drawable.russian_twists, R.array.russian_twists_tips, WorkoutCategory.CORE),
         Workout(R.string.bicep_curl, R.drawable.bicep_curl, R.array.bicep_curl_tips, WorkoutCategory.ARMS),
-        Workout(R.string.stationary_biking, R.drawable.stationary_bike, R.array.stationary_biking_tips, WorkoutCategory.CARDIO)
-
+        Workout(R.string.stationary_biking, R.drawable.stationary_bike, R.array.stationary_biking_tips, WorkoutCategory.CARDIO),
+        Workout(R.string.push_ups, R.drawable.push_ups, R.array.push_ups_tips, WorkoutCategory.ARMS)
     )
 }
 
