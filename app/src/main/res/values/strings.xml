@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">30 Days</string>
+
     <!-- Bench Press Tips -->
     <string name="bench_press">Bench Press</string>
     <string-array name="bench_press_tips">
@@ -33,11 +34,171 @@
     <!-- Stationary Biking Tips -->
     <string name="stationary_biking">Stationary Biking</string>
     <string-array name="stationary_biking_tips">
-        <item>Adjust the Seat Height – Set the seat so your knee has a slight bend (about 25-30 degrees) at the bottom of the pedal stroke.</item>
+        <item>Adjust the Seat Height – Set the seat so your knee has a slight bend (about 25–30 degrees) at the bottom of the pedal stroke.</item>
         <item>Maintain Good Posture – Keep your back straight, core engaged, and avoid hunching over the handlebars.</item>
         <item>Use Proper Resistance – Adjust the resistance to challenge your legs without causing knee strain or excessive bouncing.</item>
         <item>Pedal Smoothly – Use a steady cadence (RPM) rather than pushing too hard or pedaling too fast.</item>
         <item>Engage Your Core – Keep your core tight to improve balance and efficiency.</item>
     </string-array>
 
+    <!-- Pull-Ups -->
+    <string name="pull_ups">Pull-Ups</string>
+    <string-array name="pull_ups_tips">
+        <item>Grip the Bar – Use an overhand grip, slightly wider than shoulder-width, to engage your back muscles effectively.</item>
+        <item>Engage Your Core – Keep your core tight and avoid excessive swinging for better control.</item>
+        <item>Pull with Your Back – Focus on pulling your elbows down rather than just using your arms.</item>
+        <item>Full Range of Motion – Lower yourself completely before pulling up again to maximize muscle activation.</item>
+        <item>Progress Gradually – If struggling, use resistance bands or an assisted pull-up machine to build strength.</item>
+    </string-array>
+
+    <!-- Deadlifts -->
+    <string name="deadlift">Deadlift</string>
+    <string-array name="deadlift_tips">
+        <item>Set Up Properly – Stand with feet hip-width apart, bar close to your shins, and grip just outside your knees.</item>
+        <item>Engage Your Core – Keep your core tight and maintain a neutral spine to protect your lower back.</item>
+        <item>Drive Through Your Heels – Lift by pushing through your heels while keeping the bar close to your body.</item>
+        <item>Lockout at the Top – Fully extend your hips and squeeze your glutes at the top without overextending.</item>
+        <item>Control the Descent – Lower the bar in a controlled manner to avoid injury.</item>
+    </string-array>
+
+    <!-- Dumbbell Shoulder Press -->
+    <string name="shoulder_press">Dumbbell Shoulder Press</string>
+    <string-array name="shoulder_press_tips">
+        <item>Start with Proper Posture – Sit or stand with a straight back, core engaged, and feet shoulder-width apart.</item>
+        <item>Grip the Dumbbells Correctly – Hold the dumbbells at shoulder height with palms facing forward.</item>
+        <item>Press Overhead – Extend your arms fully while keeping a slight bend in your elbows at the top.</item>
+        <item>Control the Movement – Lower the dumbbells slowly back to the starting position.</item>
+        <item>Avoid Excessive Arching – Keep your back neutral and avoid leaning too far backward.</item>
+    </string-array>
+
+    <!-- Lunges -->
+    <string name="lunges">Lunges</string>
+    <string-array name="lunges_tips">
+        <item>Step Forward – Take a big step forward while keeping your torso upright.</item>
+        <item>Lower with Control – Bend both knees until your back knee is just above the floor.</item>
+        <item>Keep Knees Aligned – Ensure your front knee stays in line with your foot and does not cave inward.</item>
+        <item>Push Back to Starting Position – Drive through your front heel to return to a standing position.</item>
+        <item>Alternate Legs – Perform equal reps on each leg for balanced development.</item>
+    </string-array>
+
+    <!-- Plank -->
+    <string name="plank">Plank</string>
+    <string-array name="plank_tips">
+        <item>Start in Proper Position – Keep your forearms on the ground and body in a straight line from head to heels.</item>
+        <item>Engage Your Core – Tighten your abs and avoid letting your hips sag or rise too high.</item>
+        <item>Maintain a Neutral Neck – Keep your head in line with your spine and avoid looking up or down.</item>
+        <item>Breathe Steadily – Focus on controlled breathing to help sustain the hold.</item>
+        <item>Increase Time Gradually – Start with shorter holds and gradually increase duration for progress.</item>
+    </string-array>
+
+    <!-- Bicep Curls -->
+    <string name="bicep_curl">Bicep Curls</string>
+    <string-array name="bicep_curl_tips">
+        <item>Start with a Strong Stance – Stand with feet shoulder-width apart and dumbbells at your sides.</item>
+        <item>Keep Your Elbows Stationary – Avoid swinging your arms or using momentum.</item>
+        <item>Control the Movement – Lift the dumbbells smoothly and squeeze your biceps at the top.</item>
+        <item>Lower Slowly – Lower the weights in a controlled manner to maximize muscle engagement.</item>
+        <item>Avoid Overloading – Use a weight that allows proper form without excessive strain.</item>
+    </string-array>
+
+    <string name="russian_twists">Russian Twists</string>
+    <string-array name="russian_twists_tips">
+        <item>Sit at a 45-degree Angle – Keep your core tight.</item>
+        <item>Use a Weight for Extra Challenge – If comfortable.</item>
+        <item>Twist Fully – Engage obliques in every movement.</item>
+        <item>Keep a Steady Pace – Avoid rushing through the reps.</item>
+        <item>Control Your Breathing – Exhale as you twist.</item>
+    </string-array>
+
+    <string name="lateral_raises">Lateral Raises</string>
+    <string-array name="lateral_raises_tips">
+        <item>Keep a Slight Bend in the Elbows – Avoid locking them out.</item>
+        <item>Lift to Shoulder Height – Not higher.</item>
+        <item>Use Light Weights – Focus on controlled motion.</item>
+        <item>Avoid Swinging – Engage your core for stability.</item>
+        <item>Lower Slowly – Prevents momentum from taking over.</item>
+    </string-array>
+
+    <string name="lat_pulldown">Lat Pulldown</string>
+    <string-array name="lat_pulldown_tips">
+        <item>Grip Slightly Wider than Shoulder Width – Maximizes lat engagement.</item>
+        <item>Pull to Your Chest – Avoid pulling behind the head.</item>
+        <item>Control the Movement – Lower the weight slowly.</item>
+        <item>Keep Your Back Straight – Do not lean too far back.</item>
+        <item>Engage Your Core – Prevents excessive swinging.</item>
+    </string-array>
+
+    <string name="push_ups">Push-Ups</string>
+    <string-array name="push_ups_tips">
+        <item>Maintain a Straight Body – Keep your core tight to avoid sagging.</item>
+        <item>Lower Slowly – Bring your chest close to the ground while keeping elbows tucked.</item>
+        <item>Push Explosively – Engage your chest, shoulders, and triceps.</item>
+        <item>Vary Hand Placement – Wider stance for chest, closer stance for triceps.</item>
+        <item>Control Breathing – Inhale on the way down, exhale on the push.</item>
+    </string-array>
+
+    <string name="incline_bench_press">Incline Bench Press</string>
+    <string-array name="incline_bench_press_tips">
+        <item>Set the Bench at 30-45 Degrees – This targets the upper chest effectively.</item>
+        <item>Use a Slightly Narrower Grip – Helps engage the chest while protecting the shoulders.</item>
+        <item>Control Your Descent – Lower the bar to the upper chest slowly.</item>
+        <item>Drive with Power – Push the bar up while keeping control of the movement.</item>
+        <item>Avoid Overarching – Maintain proper posture to prevent lower back strain.</item>
+    </string-array>
+
+    <string name="stairs_mastery">Stairs Mastery</string>
+    <string-array name="stairs_mastery_tips">
+        <item>Maintain a Steady Pace – Avoid rushing to prevent injury.</item>
+        <item>Use Your Arms – Swing them naturally to maintain balance.</item>
+        <item>Engage Your Core – Keep your back straight and core tight.</item>
+        <item>Land Softly – Step lightly to reduce impact on your joints.</item>
+        <item>Increase Intensity Gradually – Add weight or increase speed as you progress.</item>
+    </string-array>
+
+    <!-- Core Workouts -->
+    <string name="crunch">Crunch</string>
+    <string-array name="crunch_tips">
+        <item>Lie Flat on Your Back – Keep your knees bent and feet flat on the floor.</item>
+        <item>Engage Your Core – Lift your upper body without using momentum.</item>
+        <item>Keep Your Chin Up – Avoid tucking your chin into your chest.</item>
+        <item>Exhale as You Lift – Helps activate the abs more effectively.</item>
+        <item>Lower Slowly – Control the descent for maximum muscle engagement.</item>
+    </string-array>
+
+    <string name="leg_raise">Leg Raise</string>
+    <string-array name="leg_raise_tips">
+        <item>Lie on Your Back – Keep your hands under your hips for support.</item>
+        <item>Keep Legs Straight – Lift them up slowly without bending the knees.</item>
+        <item>Engage Your Lower Abs – Focus on controlled movement.</item>
+        <item>Lower Slowly – Don\'t let your feet touch the ground between reps.</item>
+        <item>Modify if Needed – Bend your knees slightly for an easier variation.</item>
+    </string-array>
+
+    <string name="flutter_kicks">Flutter Kicks</string>
+    <string-array name="flutter_kicks_tips">
+        <item>Lie Flat on Your Back – Keep your hands under your glutes for support.</item>
+        <item>Lift Your Legs Slightly – Keep them hovering above the floor.</item>
+        <item>Alternate Leg Kicks – Move them up and down in a controlled motion.</item>
+        <item>Engage Your Core – Prevent lower back strain.</item>
+        <item>Breathe Steadily – Avoid holding your breath.</item>
+    </string-array>
+
+    <string name="bicycle_abs">Bicycle Kicks</string>
+    <string-array name="bicycle_abs_tips">
+        <item>Lie on Your Back – Place your hands behind your head lightly.</item>
+        <item>Lift Your Legs – Alternate touching each elbow to the opposite knee.</item>
+        <item>Keep the Motion Controlled – Don’t rush the movement.</item>
+        <item>Engage Your Core – Twist your torso, not just your arms.</item>
+        <item>Exhale as You Twist – Helps with muscle activation.</item>
+    </string-array>
+
+    <!-- Chest Workouts -->
+    <string name="pectoral_flys">Pectoral Flys</string>
+    <string-array name="pectoral_flys_tips">
+        <item>Lie on a Bench – Hold dumbbells with a slight bend in your elbows.</item>
+        <item>Lower the Dumbbells Slowly – Keep the motion controlled.</item>
+        <item>Engage Your Chest – Squeeze your pecs as you bring the weights back up.</item>
+        <item>Avoid Overstretching – Don’t go too deep to prevent shoulder strain.</item>
+        <item>Use Light to Moderate Weights – Focus on form over heavy lifting.</item>
+    </string-array>
 </resources>
