@@ -26,6 +26,7 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.Card
@@ -39,6 +40,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -78,6 +80,7 @@ class MainActivity : ComponentActivity() {
 fun WorkoutList(workouts: List<Workout>) {
     var searchQuery by remember { mutableStateOf("") }
     var selectedCategory by remember { mutableStateOf(WorkoutCategory.ALL)}
+    val listState = rememberLazyListState()
 
     Column(
         modifier = Modifier
@@ -91,8 +94,14 @@ fun WorkoutList(workouts: List<Workout>) {
 
         WorkoutCategoryChips(
             selectedCategory = selectedCategory,
-            onCategorySelect = { selectedCategory = it}
+            onCategorySelect = {
+                selectedCategory = it
+            }
         )
+
+        LaunchedEffect(selectedCategory) {
+            listState.animateScrollToItem(0)
+        }
 
         val filteredWorkouts = workouts.filter {
             (selectedCategory == WorkoutCategory.ALL|| it.category == selectedCategory) &&
@@ -101,7 +110,7 @@ fun WorkoutList(workouts: List<Workout>) {
         Spacer(modifier = Modifier
             .height(8.dp))
 
-        LazyColumn {
+        LazyColumn (state = listState){
             items(filteredWorkouts, key = { it.nameRes }) { workout ->
                 WorkoutCard(workout = workout)
             }
